@@ -32,8 +32,8 @@ def update_contact():
 def delete_contact():
     name = input("Name to delete: ").strip()
     if name in contacts:
-        confirm = input(f"Are you sure you want to delete '{name}'? (y/n): ").lower()
-        if confirm == 'y':
+        confirm = input(f"Are you sure you want to delete '{name}'? (yes/no): ").lower()
+        if confirm == 'yes':
             del contacts[name]
             print(f"Contact '{name}' deleted successfully!")
         else:
@@ -99,4 +99,5 @@ def main():
             print("Invalid choice. Please enter a number between 1-6.")
 
 if __name__ == "__main__":
+
     main()
