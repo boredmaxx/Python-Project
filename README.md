@@ -1,2 +1,2 @@
-# Python-Project
-This is a group work for creating a python contact list
+# Contact book
+A python program for a contact book
