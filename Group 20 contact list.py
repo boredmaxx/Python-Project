@@ -78,7 +78,7 @@ def main():
         print("3. Delete Contact")
         print("4. Search Contact")
         print("5. View All Contacts")
-        print("6. Exit page")
+        print("6. Exit")
         
         choice = input("Enter choice (1-6): ").strip()
         
@@ -101,6 +101,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
